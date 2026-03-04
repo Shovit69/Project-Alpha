@@ -1,28 +1,31 @@
-Problem 
-Too many loyalty cards, gift cards physically,  not worth the hassle to carry each one, not worht the value as a credit card or debit card to merit one each spot in mobile wallet
+Product Requirements Document (PRD)
+1. Product Overview
 
-Target users (who exactly)
-Canadian users , frequent shoppers
-Value prop (why your solution wins)
-there are already apps that store different cards but user has to manually select the cards. Although, a minor advancement in terms of convenience,i believe that it should be further automatised based on the location of user ,and pop up the chosen one.
+Product Name: Smart Wallet Loyalty Card
+Version: MVP v0.1
+Author: Shovit Bastakoti, Aman Pokhrel
+Date: 2026-03-03
 
-Core features (3–5 bullets)
-Scan physical code and store bar code.
-Create virtual card to avoid selecting manually.
-One card fits all. (self replicating bar code according to store location)
-Fit into google or apple wallet.(or create a self wallet)
-Add layer of convenience by proposing to be accessible to user by same methods like apple wallet(gestes like double power button)
+Problem
 
-Non-goals (what you’re not building yet)
-Integration into google wallet and apple wallet in order to add another layer of convenience.
-One card (self-changing bar code according to context)
+Customers carry many loyalty cards from different stores. It is inconvenient to open different apps or search for cards at checkout.
 
-Success metrics (ex: activation rate, retention, scan success rate)
-Able to replicate in the stores where
-Constraints (budget/time/platform/privacy)
-budget is nil .
-Time is few weeks (2 weeks)
-between design to publishing in app store and google play
-Apple has constraint of permission to add self replicating passes.
-Need user location.
-Legal issues?
+Solution
+
+A mobile wallet card that automatically activates the correct loyalty barcode based on store location, allowing quick scanning at checkout.
+
+Target Users
+
+Frequent retail shoppers
+
+Users with multiple loyalty cards
+
+People who want quick checkout experiences
+
+Success Metrics
+
+Time to open correct card < 3 seconds
+
+Successful barcode scan rate > 95%
+
+Users adding at least 3 cards
